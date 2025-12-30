@@ -1,1 +1,2 @@
 700-search-in-a-binary-search-tree|Easy|1766946600000
+144-binary-tree-preorder-traversal|Easy|1767033000000
