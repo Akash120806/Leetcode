@@ -2,3 +2,4 @@
 144-binary-tree-preorder-traversal|Easy|1767033000000
 94-binary-tree-inorder-traversal|Easy|1767033000000
 145-binary-tree-postorder-traversal|Easy|1767033000000
+31-next-permutation|Medium|1772303400000
