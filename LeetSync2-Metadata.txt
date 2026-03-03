@@ -3,3 +3,4 @@
 94-binary-tree-inorder-traversal|Easy|1767033000000
 145-binary-tree-postorder-traversal|Easy|1767033000000
 31-next-permutation|Medium|1772303400000
+701-insert-into-a-binary-search-tree|Medium|1772476200000
