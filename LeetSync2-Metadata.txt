@@ -4,3 +4,4 @@
 145-binary-tree-postorder-traversal|Easy|1767033000000
 31-next-permutation|Medium|1772303400000
 701-insert-into-a-binary-search-tree|Medium|1772476200000
+450-delete-node-in-a-bst|Medium|1773340200000
