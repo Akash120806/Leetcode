@@ -11,3 +11,4 @@
 1008-construct-binary-search-tree-from-preorder-traversal|Medium|1773685800000
 102-binary-tree-level-order-traversal|Medium|1773858600000
 543-diameter-of-binary-tree|Easy|1774117800000
+104-maximum-depth-of-binary-tree|Easy|1774117800000
