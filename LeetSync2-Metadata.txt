@@ -14,3 +14,4 @@
 104-maximum-depth-of-binary-tree|Easy|1774117800000
 110-balanced-binary-tree|Easy|1774463400000
 100-same-tree|Easy|1774463400000
+124-binary-tree-maximum-path-sum|Hard|1774722600000
