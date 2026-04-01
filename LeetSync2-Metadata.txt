@@ -17,3 +17,4 @@
 124-binary-tree-maximum-path-sum|Hard|1774722600000
 257-binary-tree-paths|Easy|1774809000000
 103-binary-tree-zigzag-level-order-traversal|Medium|1775068200000
+199-binary-tree-right-side-view|Medium|1775068200000
