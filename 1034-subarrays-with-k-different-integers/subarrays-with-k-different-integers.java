@@ -1,9 +1,10 @@
 class Solution {
     public int subarraysWithKDistinct(int[] nums, int k) {
-        return atMostK(nums, k) - atMostK(nums, k - 1);
+        return subarraysWithAtmostK(nums, k)
+             - subarraysWithAtmostK(nums, k - 1);
     }
 
-    private int atMostK(int[] nums, int k) {
+    public int subarraysWithAtmostK(int[] nums, int k) {
         HashMap<Integer, Integer> map = new HashMap<>();
 
         int left = 0;
@@ -15,7 +16,9 @@ class Solution {
                     map.getOrDefault(nums[right], 0) + 1);
 
             while (map.size() > k) {
-                map.put(nums[left], map.get(nums[left]) - 1);
+
+                map.put(nums[left],
+                        map.get(nums[left]) - 1);
 
                 if (map.get(nums[left]) == 0) {
                     map.remove(nums[left]);
