@@ -1,0 +1,26 @@
+class Solution {
+    public int frogJump(int[] heights, int k) {
+        int index = heights.length;
+        int[] dp = new int[index];
+        dp[0]=0;
+        int jump=0;
+        if(index==0)return 0;
+        for(int i =1; i<index;i++){
+          int minen=Integer.MAX_VALUE;
+          for(int j =1;j<=k;j++){
+            if(i-j>=0){
+            jump=dp[i-j]+Math.abs(heights[i]-heights[i-j]);
+            minen=Math.min(jump,minen);
+            }
+          }
+          dp[i]=minen;
+        }
+        return dp[index-1];
+      
+    }
+    // public int minen(int []heights,int k , int index, int[]dp){
+    //     //   for(int i =1; i<index;i++){
+             
+    //     // }
+    // }
+}
